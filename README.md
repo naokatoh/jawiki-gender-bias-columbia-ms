@@ -1,5 +1,3 @@
-
-
 # Data Analysis: Wikipedia's Hidden Gender Bias
 
 Wikipedia has long been criticized for having a disproportionate number of male biographies. This project investigated whether there is a difference between male and female biographies in certain categories on the Japanese Wikipedia, which has a distinctively large number of users.
@@ -36,7 +34,7 @@ All the results are in the `wc_results` repository
 - `Princes`  
 - `Female figure skaters`  
 - `Male figure skaters`  
-(Each category was identified with [PetScan] (https://petscan.wmflabs.org/))  
+(Each category was identified with [PetScan](https://petscan.wmflabs.org/)　)  
 ## Notebook
 ### Extracting biographies under the targeted categories from Japanese Wikipedia
 
@@ -82,7 +80,7 @@ All the results are in the `wc_results` repository
 ## Data
 ### Japanese Wikipedia dump data 
 -  as of June 1, 2022: download from [here](https://dumps.wikimedia.org/jawiki/20220601/), cf. the latest data can be downloaded from [here](https://dumps.wikimedia.org/jawiki/latest/))  
- ###[PetScan] (https://petscan.wmflabs.org/)
+### [PetScan](https://petscan.wmflabs.org/)
 -  to identify the page IDs of targeted categories 
 - The csv files below show the list of page IDs for each targeted category
 - `female_scientist.csv`
