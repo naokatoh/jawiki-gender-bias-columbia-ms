@@ -90,7 +90,7 @@ All the results are in the `wc_results` repository
 - `princess.csv`
 - `prince.csv`
 - `femaleFigureSkater.csv`
-- `maleFigureSkater.csv  
+- `maleFigureSkater.csv`  
 
 `stopwords.txt` : Stopwords lists for MeCab
 
