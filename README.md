@@ -110,13 +110,13 @@ All the results are in the `wc_results` repository
 
 
 ## wc_result
--  The resultsof wordcloud
 ### wcResultPng
 - All the results for each category
 
 ### wcResultHtml
 - All the results for each category (interactive)
 - Each word in the results is clickable for translation (link to [jisho.org](https://jisho.org/))
+- ![wcChromeCapture (4)](https://user-images.githubusercontent.com/89119005/184025675-fb5944ae-e74b-4568-ab89-4419d52c07ab.gif)
 
 ## Technical Notes
 
