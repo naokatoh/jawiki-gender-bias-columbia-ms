@@ -80,7 +80,7 @@ All the results are in the `wc_results` repository
 ## Data
 ### Japanese Wikipedia dump data 
 -  as of June 1, 2022: download from [here](https://dumps.wikimedia.org/jawiki/20220601/), cf. the latest data can be downloaded from [here](https://dumps.wikimedia.org/jawiki/latest/))  
-### [PetScan](https://petscan.wmflabs.org/)
+### petScanResult
 -  to identify the page IDs of targeted categories 
 - The csv files below show the list of page IDs for each targeted category
 - `female_scientist.csv`
@@ -91,6 +91,17 @@ All the results are in the `wc_results` repository
 - `prince.csv`
 - `femaleFigureSkater.csv`
 - `maleFigureSkater.csv`  
+
+### meCabResult
+-  The csv files below are the results of MeCab analysis for each category
+- `f_scientist_text_overall.csv`
+- `m_scientist_text_overall.csv`
+- `japaneseFemaleIdol_text_overall.csv`
+- `japaneseMaleIdol_text_overall.csv`
+- `princess_text_overall.csv`
+- `prince_text_overall.csv`
+- `femaleFigureSkater_text_overall.csv`
+- `maleFigureSkater_text_overall.csv`  
 
 `stopwords.txt` : Stopwords lists for MeCab
 
