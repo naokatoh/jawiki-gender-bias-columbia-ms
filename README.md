@@ -18,7 +18,7 @@ This repository uses the following definitions:
 人物|20　
 生年|20`  
 - `各国の女性` means “women by nationality”, `人物`means "humans", `生年` means “birth year”. There is a `女性`(women) category but it does include fictional and mythical female characters so I needed to add two other categories. 
-Wc: Wordcloud:  
+wc: Wordcloud:  
 All the results are in the `wc_results` repository
 
   
@@ -104,6 +104,9 @@ All the results are in the `wc_results` repository
 - `maleFigureSkater_text_overall.csv`  
 
 `stopwords.txt` : Stopwords lists for MeCab
+
+
+## wc_result
 
 `
 ## Technical Notes
