@@ -34,7 +34,7 @@ All the results are in the `wc_results` repository
 - `Princes`  
 - `Female figure skaters`  
 - `Male figure skaters`  
-(Each category was identified with [PetScan](https://petscan.wmflabs.org/)　)  
+(Each category was identified with [PetScan](https://petscan.wmflabs.org/))  
 ## Notebook
 ### Extracting biographies under the targeted categories from Japanese Wikipedia
 
@@ -93,7 +93,7 @@ All the results are in the `wc_results` repository
 - `maleFigureSkater.csv`  
 
 ### meCabResult
--  The csv files below are the results of MeCab analysis for each category
+-  The csv files below are the results of MeCab analysis for each category:
 - `f_scientist_text_overall.csv`
 - `m_scientist_text_overall.csv`
 - `japaneseFemaleIdol_text_overall.csv`
