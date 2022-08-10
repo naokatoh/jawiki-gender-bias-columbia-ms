@@ -103,12 +103,21 @@ All the results are in the `wc_results` repository
 - `femaleFigureSkater_text_overall.csv`
 - `maleFigureSkater_text_overall.csv`  
 
+
+
 `stopwords.txt` : Stopwords lists for MeCab
 
 
-## wc_result
 
-`
+## wc_result
+-  The resultsof wordcloud
+### wcResultPng
+- All the results for each category
+
+### wcResultHtml
+- All the results for each category (interactive)
+- Each word in the results is clickable for translation (link to [jisho.org](https://jisho.org/))
+
 ## Technical Notes
 
 All of the analyses above are coded in Python 3, using the libraries listed below:
