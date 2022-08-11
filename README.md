@@ -111,10 +111,10 @@ All the results are in the `wc_results` repository
 
 ## wc_result
 ### wcResultPng
-- All the results for each category
+- All the results for each category (static images)
 
 ### wcResultHtml
-- All the results for each category (interactive)
+- All the results for each category (interactive html files)
 - Each word in the results is clickable for translation (link to [jisho.org](https://jisho.org/))
 - ![chrome-capture-2022-7-10](https://user-images.githubusercontent.com/89119005/184027711-85ad3fd3-457f-4ac7-ad76-453c9ff80f4a.gif)
 
