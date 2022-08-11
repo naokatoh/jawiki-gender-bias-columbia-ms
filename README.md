@@ -21,9 +21,6 @@ This repository uses the following definitions:
 - wc: Wordcloud:  
 All the results are in the `wc_results` repository
 
-  
-
-
 
 ## Wikipedia categories used in the analysis
 - `Female scientists `
@@ -35,7 +32,7 @@ All the results are in the `wc_results` repository
 - `Female figure skaters`  
 - `Male figure skaters`  
 (Each category was identified with [PetScan](https://petscan.wmflabs.org/))  
-## Notebook
+## Notebooks
 ### Extracting biographies under the targeted categories from Japanese Wikipedia
 
 - `female_scientist.ipynb`
@@ -70,8 +67,8 @@ All the results are in the `wc_results` repository
 - `wordcloud_femaleFigureSkater.ipynb`
 
 ### Other Analysis
-- `top20Allcombine.ipynb` : for a Datawrapper [table](https://datawrapper.dwcdn.net/kXhdq/8/)
-- `overallAnalysisNew.ipynb`
+- `top20Allcombine.ipynb` : for the Datawrapper [table](https://datawrapper.dwcdn.net/kXhdq/8/)
+- `overallAnalysisNew.ipynb` : : to analyze word frequency and nonexistence in each category
 - `top20analysis.ipynb`
 
 
@@ -79,10 +76,12 @@ All the results are in the `wc_results` repository
 
 ## Data
 ### Japanese Wikipedia dump data 
--  as of June 1, 2022: download from [here](https://dumps.wikimedia.org/jawiki/20220601/), cf. the latest data can be downloaded from [here](https://dumps.wikimedia.org/jawiki/latest/))  
+-  as of June 1, 2022: download from [here](https://dumps.wikimedia.org/jawiki/20220601/), cf. the latest data can be downloaded from [here](https://dumps.wikimedia.org/jawiki/latest/)
+
+
 ### petScanResult
--  to identify the page IDs of targeted categories 
-- The csv files below show the list of page IDs for each targeted category
+PetScan was used to identify the page IDs of targeted categories. These CSVs contain the results of each search. They contain a list of page IDs for each targeted category.  
+
 - `female_scientist.csv`
 - `m_scientist.csv`
 - `japaneseFemaleIdol.csv`
@@ -93,7 +92,8 @@ All the results are in the `wc_results` repository
 - `maleFigureSkater.csv`  
 
 ### meCabResult
--  The csv files below are the results of MeCab analysis for each category:
+The MeCab analysis produced CSV files containing the frequency of each word in the articles for a category. The results are summarized in the files below. They also contain the part of speech, total count, and the number of articles for each word.  
+
 - `f_scientist_text_overall.csv`
 - `m_scientist_text_overall.csv`
 - `japaneseFemaleIdol_text_overall.csv`
@@ -114,8 +114,8 @@ All the results are in the `wc_results` repository
 - All the results for each category (static images)
 
 ### wcResultHtml
-- All the results for each category (interactive html files)
-- Each word in the results is clickable for translation (link to [jisho.org](https://jisho.org/))
+All the results for each category (interactive html files)  
+Each word in the results is clickable for translation (link to [jisho.org](https://jisho.org/))  
 - ![chrome-capture-2022-7-10](https://user-images.githubusercontent.com/89119005/184027711-85ad3fd3-457f-4ac7-ad76-453c9ff80f4a.gif)
 
 
@@ -124,15 +124,9 @@ All the results are in the `wc_results` repository
 All of the analyses above are coded in Python 3, using the libraries listed below:
 - pandas
 -  numpy
- - os
-- collections
--  glob
--  multidict
  - tqdm
 -  MeCab
- - unidic
- - sys
--  re
+- unidic
 -  Unicodedata
 -  Matplotlib.pyplot
 - japanize_matplotlib
@@ -144,7 +138,7 @@ All of the analyses above are coded in Python 3, using the libraries listed belo
 
 ## Licensing
 
-All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). All data files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license.
+All code in this repository is available under the [MIT License](https://opensource.org/licenses/MIT). For Wikipedia's dump data, see licencing infomation [here](https://dumps.wikimedia.org/legal.html). Other data files are available under the [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0) license.
 
 ## Questions / Feedback
 
