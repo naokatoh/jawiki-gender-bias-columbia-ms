@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>Wikipedia’s Hidden Gender Bias
+	</title>
+	<meta name="description" content="Wikipedia’s Hidden Gender Bias
+	" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css" />
+	<style>
+		#scrolly {
+			position: relative;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			background-color: #fff;
+			padding: 1rem;
+		}
+
+		#scrolly>* {
+			-webkit-box-flex: 1;
+			-ms-flex: 1;
+			flex: 1;
+		}
+
+		article {
+			position: relative;
+			padding: 0 1rem;
+		/* here you can change the width of the scrolling text */
+			max-width: 40rem;
+		}
+
+		figure {
+			position: -webkit-sticky;
+			position: sticky;
+			width: 100%;
+			margin: 0;
+			-webkit-transform: translate3d(0, 0, 0);
+			-moz-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
+			/* background-color: #8a8a8a; */
+			z-index: 0;
+		}
+
+		figure p {
+			text-align: center;
+			padding: 1rem;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translate(-50%, -50%);
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			font-size: 8rem;
+			font-weight: 900;
+			color: #fff;
+		}
+
+		.step {
+			margin: 0 auto 2rem auto;
+			background-color: #F0F8FF;
+			color: #222;
+		}
+
+		.step:last-child {
+			margin-bottom: 0;
+		}
+
+		.step.is-active {
+			background-color: goldenrod;
+			color: #3b3b3b;
+		}
+
+		.step h2 {
+			text-align: center;
+			padding: 1rem;
+			font-size: 1.5rem;
+			font-weight: bold;
+		}
+
+		.step p {
+			text-align: center;
+			padding: 1rem;
+			font-size: 1.3rem;
+		}
+
+		img {max-width:100%;}
+	</style>
+</head>
+
+<body>
+
+	<main>
+		<!-- <nav>
+			<a href="https://github.com/russellgoldenberg/scrollama">scrollama.js</a>
+			<div class="nav__examples">
+				<p>Examples:</p>
+				<a href="https://russellgoldenberg.github.io/scrollama/basic">Basic</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/progress">Progress</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/sticky-side">Sticky Side</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/sticky-overlay">Sticky Overlay</a>
+				<a href="https://russellgoldenberg.github.io/scrollama/mobile-pattern">Mobile Pattern</a>
+			</div>
+		</nav> -->
+		<section id="intro">
+			<h1 class="intro__hed">Wikipedia’s Hidden Gender Bias
+			</h1>
+			<p class="intro__dek">
+				Japanese Wikipedia has a higher percentage of biographies about women than English Wikipedia. But that doesn't mean the Japanese one is less biased.
+			</p>
+			<p class="intro__name">
+				by Nao Hidaka Kato
+			</p>
+		
+
+			<p>Not surprisingly, the gender bias is not limited to the English Wikipedia page, which has the largest Internet traffic globally. On the Wikipedia pages written in most of the major languages, the ratio between female and male biographies is <a href="https://denelezh.wmcloud.org/gender-gap/#project">uneven</a>.
+			</p>
+
+			<p>As of September 2020, only 17% of all of the articles in global Wikipedia projects were about women, according to <a href="https://denelezh.wmcloud.org/documentation/">Denelezh</a>, a tool that tracks the gender gap in Wikipedia content and other projects.
+			</p>
+
+			<p>
+				Of all of the biographies uploaded, approximately 21% on Japanese Wikipedia are about women, while the figures are 18% on the English-, Chinese-, and French-language Wikipedia pages, and 16% on the Arabic page.
+
+			</p>
+
+			<p>
+
+				These numbers suggest that Japanese Wikipedia has done a better job in terms of the gender gap. However, a deeper look at articles on the Japanese Wikipedia page shows that women are often described from a male-oriented perspective. Their appearances are often highlighted, including how sexually attractive they are, as are their roles as wives and mothers.
+			</p>
+
+
+		</section>
+
+		<section id="scrolly">
+			<article>
+				<div class="step" data-step="1">
+					<h2>All the words used in "female scientist" biographies</h2>
+					<p>Although not limited to the Japanese language, Japanese Wikipedia articles on scientists are noticeably less likely to be about female scientists. Biographies of male scientists are published 18 times more frequently than female ones (1,360 female scientific articles vs. 24,561 male articles).
+					</p>
+				</div>
+				<div class="step" data-step="2">
+			
+					<p>The word "professor” (教授) is used frequently in articles about male scientists but less frequently in articles about female scientists. It appears in 74% of male scientists’ articles, but only in 13% of female articles. This could be driven by the fact that fewer women hold professorships.
+					</p>
+				</div>
+				<div class="step" data-step="3">
+					<h2>All the words used in "male scientist" biographies</h2>
+					<p>In fact, female academic figures still face obstacles in attaining professorships. According to the 2018 survey by the American Association of University Women, only 44% of tenure-track faculty and 36% of full professors are female in US universities. In Japan, among 655 universities, the percentage of female faculty is 26%, but the higher the position, the lower the percentage of women: 32% for assistant professors, 26% for associate professors, and 18% for professors.
+					</p>
+				</div>
+				<div class="step" data-step="4">
+					<h2>All the words used in "Japanese female idols" biographies</h2>
+					<p>Although male idols are small in number, compared with female idols, there are tangible differences: articles on female idols often highlight their sexual or physical attractiveness, while ones on male idols reveal their diverse career opportunities after they quit performing as idols. 
+					</p>
+
+					<p>The word “singer” （歌手),"film” (映画) and “starring (in a film, play, etc.)” (主演) appears frequently in male articles than in female articles.</p>
+
+					<p>the word “gravure” (グラビア) is used 39 times more often in female articles than in male articles. Gravure (グラビア) in Japanese means a photographic genre that is largely aimed at male audiences. Models in this genre often appear with provocative poses. Male idols rarely appear in gravure photos.
+					</p>
+				</div>
+				<div class="step" data-step="5">
+					<h2>All the words used in "Japanese male idols" biographies</h2>
+					<p> This is probably due to the fact that many female idols give up their career in the entertainment field, particularly when they become an elder.
+					</p>
+
+					<p>In contrast, many male idols have become quite successful in singing, acting, and performing careers.</p>
+
+
+
+
+				</div>
+				<div class="step" data-step="6">
+					<h2>All the words used in "princess" biographies</h2>
+					<p>Princesses are often judged by their appearance in their biographies.
+						The words "beautiful"(美しい), "young"(若い), "very young"(幼い)and “pretty” (可愛い) more frequently appear in articles on princesses.
+						</p>
+				</div>
+				<div class="step" data-step="7">
+					<h2>All the words used in "prince" biographies</h2>
+					<p>The word "marriage"(結婚) appears in more than 90% of the articles on princesses. In contrast, the word "marriage" appears in approximately 70% of the articles on princes. 
+					</p>
+
+					<p>In contrast, in princes’ articles, the word “succession” (継承) appears twice more often. </p>
+				</div>
+				<div class="step" data-step="8">
+					<h2>All the adjectives used in "female figure skater" biographies</h2>
+					<p>In figure skaters’ biographies, no significant differences are observed in the texts, perhaps because men and women are evaluated equally in terms of technical and artistic points in their skating performances.
+					</p>
+
+				</div>
+				<div class="step" data-step="9">
+					<h2>All the adjectives used in "male figure skater" biographies</h2>
+					
+
+					<p>The feminine word “beautiful” (美しい) appears almost similarly in both skaters. The masculine word “storong” (強い) is also used without a difference.
+					</p>
+				</div>
+				
+				</div>
+			</article>
+
+			<figure>
+				<div class="visual-box" style="padding: 5px; margin: 0 auto;"></div>
+			</figure>
+		</section>
+
+		<section id="outro">
+
+			<iframe title="The top 20 common nouns/ verbs/ adjectives in Japanese Wikipedia articles" aria-label="Table" id="datawrapper-chart-kXhdq" src="https://datawrapper.dwcdn.net/kXhdq/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1048"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+			</script>
+
+
+		</section>
+	</main>
+	<footer>
+		
+	</footer>
+
+	<!-- <div class='debug'></div> -->
+	<script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+	<script src="scrollama.min.js"></script>
+	<script>
+		// using d3 for convenience
+		var main = d3.select("main");
+		var scrolly = main.select("#scrolly");
+		var figure = scrolly.select("figure");
+		var article = scrolly.select("article");
+		var step = article.selectAll(".step");
+
+		// initialize the scrollama
+		var scroller = scrollama();
+
+		// generic window resize listener event
+		function handleResize() {
+			// 1. update height of step elements
+			var stepH = Math.floor(window.innerHeight * 0.75);
+			step.style("height", stepH + "px");
+
+			var figureHeight = window.innerHeight / 1;
+			var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+
+			figure
+				.style("height", figureHeight + "px")
+				.style("top", figureMarginTop + "px");
+
+			// 3. tell scrollama to update new element dimensions
+			scroller.resize();
+		}
+
+		// scrollama event handlers
+		function handleStepEnter(response) {
+			console.log(response);
+			// response = { element, direction, index }
+
+			// add color to current step only
+			step.classed("is-active", function (d, i) {
+				return i === response.index;
+			});
+
+			// update graphic based on step
+		// ORIGINAL CODE
+			// figure.select("p").text(response.index + 1);
+
+		// changing images - images need to be named img-0.png, img-1.png, img-2.png
+			// step.classed("is-active", function (d, i) {
+			// 		figure.select(".iframe-box").html("<img src='img-" + response.index + ".png'>")
+			// 	});
+
+		// changing other HTML - this works with iframes or images too
+			step.classed("is-active", function (d, i) {
+				// console.log(response.index)
+				if (response.index === 0) {var visual='<iframe src="wc_html/femaleScientictAll.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 1) {var visual='<iframe src="wc_html/femaleScientictAll_pop1.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 2) {var visual='<iframe src="wc_html/maleScientictAll_pop1.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 3) {var visual='<iframe src="wc_html/japaneseFemaleIdolAll_pop1.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 4) {var visual='<iframe src="wc_html/japaneseMaleIdolAll_pop1.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 5) {var visual='<iframe src="wc_html/princessAdj_pop1.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 6) {var visual='<iframe src="wc_html/princeAll_pop1.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 7) {var visual='<iframe src="wc_html/femaleFigureSkaterAdj.html" width=610 height=610 scrolling="no">';}
+				else if (response.index === 8) {var visual='<iframe src="wc_html/maleFigureSkaterAdj_pop1.html" width=610 height=610 scrolling="no">';}
+				// else if (response.index === 9) {var visual='<iframe src="wc_html/femaleScientictAll_pop1.html" width=610 height=610 scrolling="no">';}
+				else {var visual='<img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/PlaceholderLC.png">';}
+
+				figure.select(".visual-box").html(visual)
+			});
+		}
+		
+		function init() {
+
+			// 1. force a resize on load to ensure proper dimensions are sent to scrollama
+			handleResize();
+
+			// 2. setup the scroller passing options
+			// 		this will also initialize trigger observations
+			// 3. bind scrollama event handlers (this can be chained like below)
+			scroller
+				.setup({
+					step: "#scrolly article .step",
+					offset: 0.33,
+					debug: false
+				})
+				.onStepEnter(handleStepEnter);
+		}
+
+		// kick things off
+		init();
+	</script>
+
+<!-- for wordcloud -->
+<script>
+    svg = document.querySelectorAll("svg text").forEach(element => {
+    element.addEventListener("click", function() {
+        word = this.textContent;
+        word_uri = encodeURI(word);
+        url = "https://jisho.org/search/" + word_uri;
+        window.open(url, "_blank");
+    })
+})
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.3.0/d3.min.js">
+
+</script>
+<style>
+.hidden { visibility: hidden; }
+</style>
+
+
+</body>
+
+</html>
